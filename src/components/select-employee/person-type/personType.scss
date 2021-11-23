@@ -1,0 +1,32 @@
+.checkAll__container {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+  padding: 0 1rem;
+  border-bottom: 1px solid #1b335e;
+  color: #dae2ef;
+  margin-top: 1rem;
+}
+.ant-list-item {
+  border-bottom: 1px solid #1b335e !important;
+}
+
+.ant-checkbox-inner {
+  background-color: #041532;
+  border: 0;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #346bd1;
+  border: 0;
+}
+.ant-checkbox-checked .ant-checkbox-inner:focus {
+  outline: none;
+}
+
+.ant-list-item {
+  padding: 0.5rem 1rem !important;
+}
+.ant-list-item-meta-title {
+  color: #dae2ef;
+}

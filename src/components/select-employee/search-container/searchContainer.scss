@@ -1,0 +1,25 @@
+.search__container {
+  background-color: #1c3663;
+  border-radius: 1rem;
+  .ant-input-affix-wrapper {
+    background-color: inherit;
+    border-radius: 1rem;
+    border: 0;
+    .anticon{
+        font-size: 2rem;
+        color: #5571A0;
+    }
+    .ant-input {
+      background-color: transparent;
+      padding: 1rem;
+      caret-color: #5571A0;
+    }
+    .ant-input::placeholder {
+      color: #5571A0;
+    }
+  }
+  .ant-input-group-wrapper .ant-input-search {
+    background-color: #142a51;
+  }
+}
+
